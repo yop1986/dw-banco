@@ -31,149 +31,113 @@ msgstr "siguiente"
 msgid "last"
 msgstr "último"
 
-	msgid "Cl Trestados"
-	msgstr "Estados de Transacciones"
+	msgid "New Usuario"
+	msgstr "Nuevo Usuario"
 
-msgid "Cl Toperaciones"
-msgstr "Tipo de Operaciones"
+	msgid "Add Usuario"
+	msgstr "Agregar Usuario"
 
-	msgid "New Grupo"
-	msgstr "Nuevo Grupo"
+	msgid "Edit Usuario"
+	msgstr "Editar Usuario"
 
-	msgid "Add Grupo"
-	msgstr "Agregar Grupo"
+	msgid "Change Password"
+	msgstr "Cambiar Contraseña"
 
-	msgid "Edit Grupo"
-	msgstr "Editar Grupo"
+	msgid "Delete Usuario"
+	msgstr "Eliminar Usuario"
 
-	msgid "Delete Grupo"
-	msgstr "Eliminar Grupo"
+	msgid "List Usuarios"
+	msgstr "Listar Usuarios"
 
-	msgid "List Grupos"
-	msgstr "Listar Grupos"
+	msgid "Related Usuarios"
+	msgstr "Usuarios Relacionados"
 
-	msgid "Related Grupos"
-	msgstr "Grupos Relacionados"
+	msgid "The usuario has been saved."
+	msgstr "El usuario fue guardado."
 
-	msgid "The grupo has been saved."
-	msgstr "El grupo fue guardado."
+	msgid "The usuario could not be saved. Please, try again."
+	msgstr "El usuario no fue guardado. Por favor, intente de nuevo."
 
-	msgid "The grupo could not be saved. Please, try again."
-	msgstr "El grupo no fue guardado. Por favor, intente de nuevo."
+	msgid "The usuario has been deleted."
+	msgstr "El usuario fue eliminado."
 
-	msgid "The grupo has been deleted."
-	msgstr "El grupo fue eliminado."
+	msgid "The usuario could not be deleted. Please, try again."
+	msgstr "El usuario no fue eliminado. Por favor, intente de nuevo."
 
-	msgid "The grupo could not be deleted. Please, try again."
-	msgstr "El grupo no fue eliminado. Por favor, intente de nuevo."
+	msgid "The old password does not match the current password!"
+	msgstr "¡La contraseña actual no es correcta!"
 
-msgid "New Usuario"
-msgstr "Nuevo Usuario"
+	msgid "The password have to be at least of 6 characters!"
+	msgstr "¡La contraseña debe ser de al menos 6 caracteres!"
 
-msgid "Add Usuario"
-msgstr "Agregar Usuario"
+	msgid "The passwords does not match!"
+	msgstr "¡Las contraseñas no coinciden!"
 
-msgid "Edit Usuario"
-msgstr "Editar Usuario"
+	msgid "Your password has been successfully changed."
+	msgstr "La contraseña fue actualizada."
 
-msgid "Change Password"
-msgstr "Cambiar Contraseña"
+	msgid "The password could not be changed. Please, try again."
+	msgstr "No se actualizó la contraseña. Por favor, intente de nuevo."
 
-msgid "Delete Usuario"
-msgstr "Eliminar Usuario"
+msgid "New Cl Moneda"
+msgstr "Nueva Moneda"
 
-msgid "List Usuarios"
-msgstr "Listar Usuarios"
+msgid "Add Cl Moneda"
+msgstr "Agregar Moneda"
 
-msgid "Related Usuarios"
-msgstr "Usuarios Relacionados"
+msgid "Edit Cl Moneda"
+msgstr "Editar Moneda"
 
-msgid "The usuario has been saved."
-msgstr "El usuario fue guardado."
+msgid "Delete Cl Moneda"
+msgstr "Eliminar Moneda"
 
-msgid "The usuario could not be saved. Please, try again."
-msgstr "El usuario no fue guardado. Por favor, intente de nuevo."
+msgid "List Cl Monedas"
+msgstr "Listar Monedas"
 
-msgid "The usuario has been deleted."
-msgstr "El usuario fue eliminado."
+msgid "Related Cl Monedas"
+msgstr "Monedas Relacionadas"
 
-msgid "The usuario could not be deleted. Please, try again."
-msgstr "El usuario no fue eliminado. Por favor, intente de nuevo."
+msgid "The cl moneda has been saved."
+msgstr "La cl moneda fue guardada."
 
-msgid "The old password does not match the current password!"
-msgstr "¡La contraseña actual no es correcta!"
+msgid "The cl moneda could not be saved. Please, try again."
+msgstr "La cl moneda no fue guardada. Por favor, intente de nuevo."
 
-msgid "The password have to be at least of 6 characters!"
-msgstr "¡La contraseña debe ser de al menos 6 caracteres!"
+msgid "The cl moneda has been deleted."
+msgstr "La cl moneda fue eliminada."
 
-msgid "The passwords does not match!"
-msgstr "¡Las contraseñas no coinciden!"
+msgid "The cl moneda could not be deleted. Please, try again."
+msgstr "La cl moneda no fue eliminada. Por favor, intente de nuevo."
 
-msgid "Your password has been successfully changed."
-msgstr "La contraseña fue actualizada."
+	msgid "New Cuenta"
+	msgstr "Nueva Cuenta"
 
-msgid "The password could not be changed. Please, try again."
-msgstr "No se actualizó la contraseña. Por favor, intente de nuevo."
+	msgid "Add Cuenta"
+	msgstr "Agregar Cuenta"
 
-	msgid "New Cl Moneda"
-	msgstr "Nueva Moneda"
+	msgid "Edit Cuenta"
+	msgstr "Editar Cuenta"
 
-	msgid "Add Cl Moneda"
-	msgstr "Agregar Moneda"
+	msgid "Delete Cuenta"
+	msgstr "Eliminar Cuenta"
 
-	msgid "Edit Cl Moneda"
-	msgstr "Editar Moneda"
+	msgid "List Cuentas"
+	msgstr "Listar Cuentas"
 
-	msgid "Delete Cl Moneda"
-	msgstr "Eliminar Moneda"
+	msgid "Related Cuentas"
+	msgstr "Cuentas Relacionadas"
 
-	msgid "List Cl Monedas"
-	msgstr "Listar Monedas"
+	msgid "The cuenta has been saved."
+	msgstr "La cuenta fue guardada."
 
-	msgid "Related Cl Monedas"
-	msgstr "Monedas Relacionadas"
+	msgid "The cuenta could not be saved. Please, try again."
+	msgstr "La cuenta no fue guardada. Por favor, intente de nuevo."
 
-	msgid "The cl moneda has been saved."
-	msgstr "La cl moneda fue guardada."
+	msgid "The cuenta has been deleted."
+	msgstr "La cuenta fue eliminada."
 
-	msgid "The cl moneda could not be saved. Please, try again."
-	msgstr "La cl moneda no fue guardada. Por favor, intente de nuevo."
-
-	msgid "The cl moneda has been deleted."
-	msgstr "La cl moneda fue eliminada."
-
-	msgid "The cl moneda could not be deleted. Please, try again."
-	msgstr "La cl moneda no fue eliminada. Por favor, intente de nuevo."
-
-msgid "New Cuenta"
-msgstr "Nueva Cuenta"
-
-msgid "Add Cuenta"
-msgstr "Agregar Cuenta"
-
-msgid "Edit Cuenta"
-msgstr "Editar Cuenta"
-
-msgid "Delete Cuenta"
-msgstr "Eliminar Cuenta"
-
-msgid "List Cuentas"
-msgstr "Listar Cuentas"
-
-msgid "Related Cuentas"
-msgstr "Cuentas Relacionadas"
-
-msgid "The cuenta has been saved."
-msgstr "La cuenta fue guardada."
-
-msgid "The cuenta could not be saved. Please, try again."
-msgstr "La cuenta no fue guardada. Por favor, intente de nuevo."
-
-msgid "The cuenta has been deleted."
-msgstr "La cuenta fue eliminada."
-
-msgid "The cuenta could not be deleted. Please, try again."
-msgstr "La cuenta no fue eliminada. Por favor, intente de nuevo."
+	msgid "The cuenta could not be deleted. Please, try again."
+	msgstr "La cuenta no fue eliminada. Por favor, intente de nuevo."
 
 
 

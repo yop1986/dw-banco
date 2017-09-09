@@ -58,8 +58,6 @@ class UsuariosController extends AppController
     {
         $usuario = $this->Usuarios->newEntity();
         if ($this->request->is('post')) {
-            //$this->request->data['creado'] = Time::now();
-            //$this->request->data['activo'] = true;
             $usuario = $this->Usuarios->patchEntity($usuario, $this->request->getData());
             $usuario['creado'] = Time::Now();
             $usuario['activo'] = true;

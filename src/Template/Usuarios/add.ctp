@@ -25,7 +25,7 @@
             echo $this->Form->control('correo', ['label' => __('Correo')]);
             echo $this->Form->control('telefono', ['label' => __('Teléfono')]);
             echo $this->Form->control('contrasena', ['label' => __('Contraseña'), 'type' => 'password']);
-            echo $this->Form->control('grupo_id', ['options' => $grupos, 'label' => __('Grupo')]);
+            echo $this->Form->control('grupo', ['label' => __('Grupo'), 'type' => 'select', 'options' => ['Administrador' => 'Administrador', 'Cliente' => 'Cliente']]);
         ?>
     </fieldset>
     <?= $this->Form->button(__('Submit')) ?>

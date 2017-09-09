@@ -10,7 +10,6 @@ use Cake\Validation\Validator;
 /**
  * Usuarios Model
  *
- * @property \App\Model\Table\GruposTable|\Cake\ORM\Association\BelongsTo $Grupos
  * @property \App\Model\Table\BeneficiariosTable|\Cake\ORM\Association\HasMany $Beneficiarios
  * @property \App\Model\Table\CuentasTable|\Cake\ORM\Association\HasMany $Cuentas
  *
@@ -39,10 +38,6 @@ class UsuariosTable extends Table
         $this->setDisplayField('usuario');
         $this->setPrimaryKey('id');
 
-        $this->belongsTo('Grupos', [
-            'foreignKey' => 'grupo_id',
-            'joinType' => 'INNER'
-        ]);
         $this->hasMany('Beneficiarios', [
             'foreignKey' => 'usuario_id'
         ]);
@@ -117,7 +112,6 @@ class UsuariosTable extends Table
     {
         $rules->add($rules->isUnique(['usuario']));
         $rules->add($rules->isUnique(['correo']));
-        $rules->add($rules->existsIn(['grupo_id'], 'Grupos'));
 
         return $rules;
     }

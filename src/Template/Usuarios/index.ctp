@@ -37,7 +37,7 @@
                 <td><?= h($usuario->nombre) ?></td>
                 <td><?= h($usuario->creado) ?></td>
                 <td><?= h($usuario->activo) ? __('Yes') : __('No') ?></td>
-                <td><?= $usuario->has('grupo') ? $this->Html->link($usuario->grupo->nombre, ['controller' => 'Grupos', 'action' => 'view', $usuario->grupo->id]) : '' ?></td>
+                <td><?= h($usuario->grupo) ?></td>
                 <td class="actions">
                     <?= $this->Html->link(__('View'), ['action' => 'view', $usuario->id]) ?>
                     <?= $this->Html->link(__('Edit'), ['action' => 'edit', $usuario->id]) ?>

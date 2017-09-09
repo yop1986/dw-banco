@@ -25,9 +25,7 @@ class UsuariosController extends AppController
      */
     public function index()
     {
-        $this->paginate = [
-            'contain' => ['Grupos']
-        ];
+        $this->paginate = [];
         $usuarios = $this->paginate($this->Usuarios);
 
         $this->set(compact('usuarios'));
@@ -44,7 +42,7 @@ class UsuariosController extends AppController
     public function view($id = null)
     {
         $usuario = $this->Usuarios->get($id, [
-            'contain' => ['Grupos', 'Beneficiarios', 'Cuentas']
+            'contain' => ['Beneficiarios', 'Cuentas']
         ]);
 
         $this->set('usuario', $usuario);
@@ -72,8 +70,7 @@ class UsuariosController extends AppController
             }
             $this->Flash->error(__('The usuario could not be saved. Please, try again.'));
         }
-        $grupos = $this->Usuarios->Grupos->find('list', ['limit' => 200]);
-        $this->set(compact('usuario', 'grupos'));
+        $this->set(compact('usuario'));
         $this->set('_serialize', ['usuario']);
     }
 
@@ -100,8 +97,7 @@ class UsuariosController extends AppController
             }
             $this->Flash->error(__('The usuario could not be saved. Please, try again.'));
         }
-        $grupos = $this->Usuarios->Grupos->find('list', ['limit' => 200]);
-        $this->set(compact('usuario', 'grupos'));
+        $this->set(compact('usuario'));
         $this->set('_serialize', ['usuario']);
     }
 

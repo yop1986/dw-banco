@@ -16,9 +16,7 @@ use Cake\ORM\Entity;
  * @property \Cake\I18n\FrozenTime $creado
  * @property \Cake\I18n\FrozenTime $modificado
  * @property bool $activo
- * @property int $grupo_id
  *
- * @property \App\Model\Entity\Grupo $grupo
  * @property \App\Model\Entity\Beneficiario[] $beneficiarios
  * @property \App\Model\Entity\Cuenta[] $cuentas
  */
